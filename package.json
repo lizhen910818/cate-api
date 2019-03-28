@@ -1,0 +1,32 @@
+{
+  "name": "cate-api",
+  "version": "1.0.0",
+  "description": "餐饮扫码点餐数据API子系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizhen910818/cate-api.git"
+  },
+  "keywords": [
+    "餐饮",
+    "cate",
+    "扫码",
+    "点餐"
+  ],
+  "author": "Li Zhenzhen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lizhen910818/cate-api/issues"
+  },
+  "homepage": "https://github.com/lizhen910818/cate-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
